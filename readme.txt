@@ -1,29 +1,33 @@
-This file describes the steps to run our code
+# Information Retrieval System
 
-The easiest way to run our code is to use the Colab file:
-https://colab.research.google.com/drive/1t3biVpS3wsB5KA8M-pkMjGj9wJJIMU-7?usp=sharing
+This file describes the steps to run our code.
+
+The easiest way to run our code is to use the Colab file: https://colab.research.google.com/drive/1t3biVpS3wsB5KA8M-pkMjGj9wJJIMU-7?usp=sharing
 
 This helps to:
-- avoid python/tensorflow version issues
-- avoid the need to download the Large data/GloVe files
+- avoid Python/TensorFlow version issues
+- avoid the need to download the Large data/GloVe files manually
 
 To run this, open the Colab file and run all the cells one after the other. The 1st 2 cells may take longer as the large data zip file are loaded into the environment and unzipped. Run the 1st 4 cells. Then follow from step 6 below to see the results (1st cell and 2nd cell mentioned in the below steps refer to the 2 cells below the heading "Start of interactive application" in the Colab file)
 
-*** To run in local machine ***
-Install the Levenshtein library: 
+*** To run on your local machine ***
+Install these libraries: 
+`
 pip install python-Levenshtein
 pip install wikipedia
+`
 
-Download the Large_files dataset from:
-https://drive.google.com/drive/folders/1PEYU8C5BOCWa0NCTyiIaJZZNY3EdaTAK?usp=sharing
-Add this folder to the EE17B071_EE17B154_code folder that this readme is located in.
+Download the Large_files folder from: https://drive.google.com/drive/folders/1PEYU8C5BOCWa0NCTyiIaJZZNY3EdaTAK?usp=sharing
+Add this folder to the Code folder.
 
 Our code can be run both from the terminal and the Interactive application.
 
-*** Example command line ***
+**Command line - example**
+`
 python main.py -dataset "cranfield\\" -out_folder "Output\\" -segmenter punkt -tokenizer ptb -preprocess -model lsa -k 200
+`
 
-*** For the interactive application:***
+**Interactive Application**
 1. Interactive Application.ipynb must be opened as a Jupyter notebook
 2. Execute the 1st cell, keep the options in the default configuration as they appear
 3. Click on Preprocess@runtime
