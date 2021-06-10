@@ -17,6 +17,7 @@ To run this, open the Colab file and run all the cells one after the other. The 
 Install these libraries: 
 `
 pip install python-Levenshtein
+
 pip install wikipedia
 `
 
