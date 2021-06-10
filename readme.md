@@ -8,9 +8,12 @@ This helps to:
 - avoid Python/TensorFlow version issues
 - avoid the need to download the Large data/GloVe files manually
 
+### Instructions to use the Colab notebook:
+
 To run this, open the Colab file and run all the cells one after the other. The 1st 2 cells may take longer as the large data zip file are loaded into the environment and unzipped. Run the 1st 4 cells. Then follow from step 6 below to see the results (1st cell and 2nd cell mentioned in the below steps refer to the 2 cells below the heading "Start of interactive application" in the Colab file)
 
-*** To run on your local machine ***
+### To run on your local machine:
+
 Install these libraries: 
 `
 pip install python-Levenshtein
