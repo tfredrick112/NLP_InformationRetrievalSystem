@@ -15,11 +15,8 @@ To run this, open the Colab file and run all the cells one after the other. The 
 ### To run on your local machine:
 
 Install these libraries: 
-`
-pip install python-Levenshtein
-
-pip install wikipedia
-`
+`pip install python-Levenshtein`
+`pip install wikipedia`
 
 Download the Large_files folder from: https://drive.google.com/drive/folders/1PEYU8C5BOCWa0NCTyiIaJZZNY3EdaTAK?usp=sharing
 Add this folder to the Code folder.
