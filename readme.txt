@@ -1,4 +1,4 @@
-#Information Retrieval System
+## Information Retrieval System
 
 This file describes the steps to run our code.
 
